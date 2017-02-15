@@ -10,7 +10,7 @@
 #include "pico_tcp.h"
 #include "pico_tree.h"
 #include "wolfssl/ssl.h"
-
+#include "wolfssl/wolfcrypt/settings.h"
 // Function bindings for wolfSSL
 #define SSL_CONTEXT     WOLFSSL
 #define SSL_WRITE       wolfSSL_write

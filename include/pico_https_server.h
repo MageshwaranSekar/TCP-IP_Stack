@@ -5,6 +5,7 @@
 #include "pico_https_util.h"
 #include "pico_https_glue.h"
 #include "wolfssl/ssl.h"
+#include "wolfssl/wolfcrypt/settings.h"
 /* Response codes */
 #define HTTPS_RESOURCE_NOT_FOUND     1u
 #define HTTPS_RESOURCE_FOUND         2u
